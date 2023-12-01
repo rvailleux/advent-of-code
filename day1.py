@@ -2,7 +2,7 @@ def getLinesFromFile(filePath):
     f = open(filePath, "r")
     return f.readlines()
 
-def turnCharArrayIntoIntArray(charArray):
+""" def turnCharArrayIntoIntArray(charArray):
     numbers = []
     for line in charArray:
         lineOfNumbers = []
@@ -10,7 +10,7 @@ def turnCharArrayIntoIntArray(charArray):
             lineOfNumbers.append(int(char))
         numbers.append(lineOfNumbers)
     
-    return numbers
+    return numbers """
 
 def getNumbersArrayFromFile(filePath):
 
@@ -44,7 +44,7 @@ def removeDigitFromString(line):
 
     return newLine
 
-def removeNonDigitFromString(line):
+""" def removeNonDigitFromString(line):
 
     digits = [str(x) for x in range(1,10)]
 
@@ -55,7 +55,7 @@ def removeNonDigitFromString(line):
             newLine += letter
 
     return newLine
-
+ """
 def getDigitsFromString(line):
     spelledNumbers = {'one' : 1,'two' : 2, 'three': 3 , 'four':4, 'five' : 5, 'six' : 6, 'seven' : 7, 'eight' : 8, 'nine' : 9}
 

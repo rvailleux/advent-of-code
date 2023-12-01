@@ -25,14 +25,6 @@ def lineWithDigits():
 def lineWithoutDigits():
     return "nineeightseven"
 
-@pytest.fixture
-def lineWithDigitsInstead():
-    return '49872'
-
-@pytest.fixture
-def arrayOfDigits():
-    return [9,8,7]
-
 def test_remove_digits(lineWithDigits, lineWithoutDigits):
     noDigitString =  day1.removeDigitFromString(lineWithDigits)
 
